@@ -7,6 +7,7 @@ public class TransientObject : MonoBehaviour
 
     [SerializeField] private float transitionDelayToTransient = 1.0f;
     [SerializeField] private float transitionDelayFromTransient = 1.0f;
+    [SerializeField] private float transientAlpha = 0.1f;
 
     private SpriteRenderer renderer;
     private BoxCollider2D col;
@@ -33,7 +34,7 @@ public class TransientObject : MonoBehaviour
         Color c = renderer.color;
         if (isTransient)
         {
-            c.a = 0.0f;
+            c.a = transientAlpha;
         } else {
             c.a = 1.0f;
         }
