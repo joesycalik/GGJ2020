@@ -719,12 +719,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &819465361 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2483681586814593494, guid: 00270ed71915d6e4898628075ceafbb2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1975853118}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &835781322
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,11 +812,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 835781322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437efcb39befbdb49b833ee26cc6b8d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 496750424c87dfc4796cefff85447037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 819465361}
-  _followSpeed: 1
+  xSpeed: 2
+  ySpeed: 2
+  size: 5
+  maxSizeScale: 2
+  distanceScale: 0.1
 --- !u!1 &867889215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1939,11 @@ PrefabInstance:
     - target: {fileID: 2483681586814593450, guid: 00270ed71915d6e4898628075ceafbb2,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2483681586814593450, guid: 00270ed71915d6e4898628075ceafbb2,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2483681586814593494, guid: 00270ed71915d6e4898628075ceafbb2,
