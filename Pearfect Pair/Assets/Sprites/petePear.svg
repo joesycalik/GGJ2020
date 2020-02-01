@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="334.46386"
+     inkscape:cx="364.07765"
      inkscape:cy="579.80876"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,8 +59,8 @@
        id="path815"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
-       inkscape:export-xdpi="274.22562"
-       inkscape:export-ydpi="274.22562" />
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        style="fill:#f3b400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.05033582"
        id="path4529"
@@ -68,7 +68,9 @@
        cy="103.49239"
        rx="2.1643436"
        ry="5.4448051"
-       transform="matrix(0.98190464,0.18937605,-0.20325754,0.97912531,0,0)" />
+       transform="matrix(0.98190464,0.18937605,-0.20325754,0.97912531,0,0)"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        transform="matrix(0.98030775,0.19747587,-0.19493947,0.98081527,0,0)"
        ry="5.2524676"
@@ -76,7 +78,9 @@
        cy="102.63947"
        cx="124.84219"
        id="ellipse4531"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04759246" />
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04759246"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        style="fill:#784421;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0309686"
        id="ellipse4533"
@@ -84,7 +88,9 @@
        cy="103.5209"
        rx="1.3051205"
        ry="3.4178009"
-       transform="matrix(0.98030775,0.19747587,-0.19493947,0.98081527,0,0)" />
+       transform="matrix(0.98030775,0.19747587,-0.19493947,0.98081527,0,0)"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        transform="matrix(0.95318791,0.30237858,-0.29870284,0.95434617,0,0)"
        ry="1.5972285"
@@ -92,10 +98,12 @@
        cy="90.593712"
        cx="135.87477"
        id="ellipse4535"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01447749" />
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01447749"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
-       inkscape:export-ydpi="274.22562"
-       inkscape:export-xdpi="274.22562"
+       inkscape:export-ydpi="273.77478"
+       inkscape:export-xdpi="273.77478"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
        inkscape:connector-curvature="0"
        id="path5227"
@@ -109,8 +117,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
-       inkscape:export-xdpi="274.22562"
-       inkscape:export-ydpi="274.22562" />
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
        sodipodi:nodetypes="sssss"
        inkscape:connector-curvature="0"
@@ -118,8 +126,8 @@
        d="m 106.4052,116.81014 c -0.16493,0.28809 0.90364,0.26311 1.91144,0.63751 1.0078,0.3744 1.5732,1.0064 1.73813,0.71831 0.16493,-0.2881 -0.51835,-0.82515 -1.52615,-1.19955 -1.0078,-0.3744 -1.95849,-0.44436 -2.12342,-0.15627 z"
        style="fill:#a47900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03767895"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
-       inkscape:export-xdpi="274.22562"
-       inkscape:export-ydpi="274.22562" />
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        transform="matrix(0.99323474,-0.1161239,0.12474257,0.99218914,0,0)"
        ry="5.4423065"
@@ -127,7 +135,9 @@
        cy="136.78407"
        cx="91.491013"
        id="ellipse4582"
-       style="fill:#f3b400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0503459" />
+       style="fill:#f3b400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0503459"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04759242"
        id="ellipse4584"
@@ -135,7 +145,9 @@
        cy="137.46951"
        rx="2.0053802"
        ry="5.2533102"
-       transform="matrix(0.9926332,-0.12115831,0.11956357,0.99282655,0,0)" />
+       transform="matrix(0.9926332,-0.12115831,0.11956357,0.99282655,0,0)"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        transform="matrix(0.9926332,-0.12115831,0.11956357,0.99282655,0,0)"
        ry="3.418349"
@@ -143,7 +155,9 @@
        cy="138.3511"
        cx="92.555321"
        id="ellipse4586"
-       style="fill:#784421;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03096857" />
+       style="fill:#784421;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03096857"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01447743"
        id="ellipse4588"
@@ -151,7 +165,9 @@
        cy="128.77463"
        rx="0.60997039"
        ry="1.5981909"
-       transform="matrix(0.99991592,-0.01296763,0.0127945,0.99991815,0,0)" />
+       transform="matrix(0.99991592,-0.01296763,0.0127945,0.99991815,0,0)"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        style="fill:#f3b400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04641439"
        id="path4633"
@@ -160,8 +176,8 @@
        rx="1.6012824"
        ry="0.81467879"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
-       inkscape:export-xdpi="274.22562"
-       inkscape:export-ydpi="274.22562" />
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
        style="fill:#784421;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03965389"
        d="m 106.04176,102.20879 1.06259,0.19412 c 0.18688,0.0341 0.29074,0.26526 0.23287,0.5182 0,0 -0.86753,1.64666 -1.07342,2.52942 -0.21606,0.92629 -0.15402,2.83526 -0.15402,2.83526 -0.0173,0.41148 0.0227,0.50057 -0.37058,0.5435 0,0 -0.21063,0.0545 -0.58585,0.0468 -0.28756,-0.006 -0.53077,-0.0591 -0.53077,-0.0591 -0.21453,-0.041 -0.27109,-0.5779 -0.25005,-0.84857 0,0 0.0663,-1.84724 0.2726,-2.74825 0.20578,-0.89873 0.95483,-2.61644 0.95483,-2.61644 0.0579,-0.25294 0.25492,-0.42908 0.4418,-0.39494 z"
@@ -169,14 +185,14 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sscscssssscs"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
-       inkscape:export-xdpi="274.22562"
-       inkscape:export-ydpi="274.22562" />
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <g
        id="g4714"
        transform="matrix(0.1256507,0.221083,-0.20357806,0.13645495,97.035009,59.965858)"
        inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
-       inkscape:export-xdpi="274.22562"
-       inkscape:export-ydpi="274.22562">
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478">
       <path
          style="fill:#acca24;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1418561"
          d="m 185.72942,51.694864 c 0.0437,8.345967 -5.14906,15.80242 -6.76893,15.985376 -0.93991,0.106153 -6.38286,-5.517279 -6.42654,-13.863249 -0.0437,-8.345964 6.28909,-17.415046 6.28909,-17.415046 0,0 6.8627,6.946956 6.90638,15.292919 z"
@@ -243,38 +259,50 @@
        d="m 111.70402,137.00419 c 1.25779,-0.0158 -1.29471,3.18094 -3.34656,3.81695 -1.02592,0.31802 -2.16978,0.47509 -3.31196,0.4716 -1.14218,-0.003 -2.28269,-0.16755 -3.30191,-0.4918 -2.038434,-0.64854 -4.767554,-3.80885 -3.244502,-3.78708"
        id="path5142"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccscc" />
+       sodipodi:nodetypes="ccscc"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
        sodipodi:nodetypes="ccscc"
        inkscape:connector-curvature="0"
        id="path5145"
        d="m 110.67046,137.37024 c 1.05693,-0.0133 -1.08795,2.67296 -2.81213,3.2074 -0.86209,0.26724 -1.82328,0.39922 -2.78306,0.39629 -0.95978,-0.003 -1.91815,-0.14079 -2.77461,-0.41326 -1.7129,-0.54497 -4.006198,-3.2006 -2.72637,-3.1823"
-       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04267767;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04267767;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
        style="opacity:1;fill:#de8787;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.067665;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 107.16043,140.39547 c 0,0.0711 0.0229,0.34969 -0.0522,0.38236 -0.32109,0.13967 -1.07442,0.19641 -2.03164,0.19641 -0.88209,0 -1.63904,-0.0919 -2.10656,-0.23046 -0.11843,-0.0351 -0.0777,-0.24966 -0.0777,-0.34831 0,-0.4224 1.03338,-0.95086 2.18427,-0.95086 1.15089,0 2.08387,0.52846 2.08387,0.95086 z"
        id="path5149"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cscsccc" />
+       sodipodi:nodetypes="cscsccc"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
        style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.02578292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 110.67046,137.37021 c 0.49888,-0.002 0.38465,0.40695 0.11342,0.75773 -0.41159,0.53229 -1.91497,0.4853 -2.9172,0.47971 -0.87044,-0.003 -1.76481,0.004 -2.72459,0.003 -0.95978,-0.001 -1.95156,0.007 -2.85813,-0.0255 -0.9388,0.0211 -2.442094,0.0408 -2.922873,-0.43657 -0.412505,-0.40962 -0.396389,-0.77818 0.213203,-0.775"
        id="path5152"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cscscsc" />
+       sodipodi:nodetypes="cscscsc"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <path
        style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 98.914773,132.67935 c 0,0 0.785128,-0.66636 6.005207,-0.67653 6.29758,-0.0123 6.96572,0.67653 6.96572,0.67653 0.58479,0.70158 0.876,2.52998 0.88533,2.68941 0.0284,0.48535 -0.70421,0.71516 -1.26649,0.70857 -0.0336,-3.9e-4 -0.11345,-0.57794 -0.11215,-0.57978 0,0 -0.0282,0.58072 -0.0526,0.58219 -0.23506,0.0139 -0.39749,0.007 -0.44805,0.007 -0.0236,0.001 -0.0556,-0.54079 -0.0793,-0.54046 -0.0272,3.7e-4 -0.046,0.54306 -0.0732,0.54252 -0.0741,-10e-4 -0.14827,-0.005 -0.22212,-0.007 l -0.13072,-0.56371 -0.0293,0.56251 -0.47406,-0.006 -0.16908,-0.56545 -0.0545,0.55182 -0.54149,-0.0113 -0.12642,-0.50238 -0.0583,0.52073 -0.53571,-0.005 -0.0782,-0.5199 -0.0753,0.52062 -0.4206,-0.004 -0.0763,-0.52214 -0.0876,0.5164 -0.39276,-0.004 -0.0792,-0.51496 -0.0543,0.51659 -0.74747,-0.007 -0.10025,-0.48011 -0.0585,0.48758 -0.55532,-0.004 -0.0879,-0.50093 -0.0584,0.513 -0.28068,-0.001 -0.14105,-0.5221 -0.0251,0.53417 -0.59175,-0.002 -0.0887,-0.52618 -0.0768,0.53728 -0.50178,-5e-4 -0.1006,-0.5916 -0.0886,0.60248 -0.64274,3.5e-4 -0.0837,-0.54315 -0.065,0.54944 -0.56096,7.3e-4 -0.0769,-0.53415 -0.1063,0.53169 -0.54969,5.5e-4 -0.0763,-0.51678 -0.0945,0.53824 -0.50801,0.001 -0.0868,-0.54818 -0.0785,0.54008 -0.40827,9.7e-4 -0.0752,-0.56718 -0.10858,0.54291 -0.642818,5e-5 -0.07124,-0.53747 -0.146182,0.55567 -0.543051,0.01 -0.075,-0.55151 -0.175436,0.5728 c 0,0 -1.085782,0.17553 -1.085782,-0.76839 0,-0.94393 0.642984,-1.94607 1.545152,-2.68941 z"
        id="rect5158"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssscscssccccccccccccccccccccccccccccccccccccccccccccccccccccccssc" />
+       sodipodi:nodetypes="csssscscssccccccccccccccccccccccccccccccccccccccccccccccccccccccssc"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <ellipse
        style="opacity:1;fill:#f3b400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04805135;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5135"
        cx="105.07738"
        cy="132.202"
        rx="3.6140907"
-       ry="2.0843537" />
+       ry="2.0843537"
+       inkscape:export-xdpi="273.77478"
+       inkscape:export-ydpi="273.77478" />
     <g
        id="g6937"
        inkscape:export-xdpi="336.155"
