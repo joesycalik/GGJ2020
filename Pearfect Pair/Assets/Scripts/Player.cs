@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,12 +17,7 @@ public class Player : MonoBehaviour
         rBody = GetComponent<Rigidbody2D>();
     }    
 
-    void Update()
-    {
-        
-    }
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         float xInput = Input.GetAxis("Horizontal");
         float movementDir = xInput * speed;
