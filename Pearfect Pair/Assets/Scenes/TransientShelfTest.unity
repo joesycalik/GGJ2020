@@ -571,6 +571,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionDelayToTransient: 3
   transitionDelayFromTransient: 1
+  transientAlpha: 0.1
+  warningStart: 1
+  warningDuration: 0.2
+  warningAlpha: 0.5
 --- !u!1 &2115392234
 GameObject:
   m_ObjectHideFlags: 0
