@@ -6,10 +6,7 @@ public class TransientObject : MonoBehaviour
 {
 
     [SerializeField] private float transitionDelay;
-    [SerializeField] private bool isTransient;
-
-    [SerializeField] private Color enabledColor;
-    [SerializeField] private Color disabledColor;
+    private bool isTransient;
 
     private SpriteRenderer renderer;
     private BoxCollider2D col;
@@ -20,8 +17,6 @@ public class TransientObject : MonoBehaviour
     {
         col = GetComponent<BoxCollider2D>();
         renderer = GetComponent<SpriteRenderer>();
-        
-        renderer.color = enabledColor;
 
         isTransient = false;
         lastTransitionTime = Time.time;
@@ -36,12 +31,14 @@ public class TransientObject : MonoBehaviour
 
             col.enabled = !isTransient;
 
+            Color c = renderer.color;;
             if (isTransient)
             {
-                renderer.color = disabledColor;
+                c.a = 0.0f;
             } else {
-                renderer.color = enabledColor;
+                c.a = 1.0f;
             }
+            renderer.color = c;
         }
     }
 }
