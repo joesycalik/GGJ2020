@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,11 +18,6 @@ public class Player : MonoBehaviour
     }    
 
     void Update()
-    {
-        
-    }
-
-    private void FixedUpdate()
     {
         float xInput = Input.GetAxis("Horizontal");
         float movementDir = xInput * speed;
