@@ -10,15 +10,16 @@ public class Player : MonoBehaviour
         
     }
 
-    float speed = 5.0f;
+    float speed = 15.0f;
 
     void Update()
     {
-
+        var xDir = Input.GetAxis("Horizontal");
         var translation = Input.GetAxis("Horizontal") * speed;
 
         var rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.AddForce(Vector3.forward * translation);
+        rigidbody.AddTorque(xDir * 1f);
     }
 
 }
