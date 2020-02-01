@@ -16,8 +16,8 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="JAR.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="glassJar.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -37,6 +37,16 @@
        x2="106.69456"
        y2="113.31392"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4883"
+       id="linearGradient829"
+       gradientUnits="userSpaceOnUse"
+       x1="39.165804"
+       y1="113.31392"
+       x2="106.69456"
+       y2="113.31392"
+       gradientTransform="matrix(1,0,0.01351228,0.9999087,0.1336352,-0.26726953)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -45,18 +55,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="400"
-     inkscape:cy="445.71429"
+     inkscape:zoom="1.979899"
+     inkscape:cx="307.32214"
+     inkscape:cy="670.78903"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:window-width="900"
-     inkscape:window-height="800"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="2844"
+     inkscape:window-height="1955"
+     inkscape:window-x="143"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -73,23 +84,24 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
+    <path
+       style="opacity:0.495;fill:#9ee6ce;fill-opacity:1;stroke:url(#linearGradient829);stroke-width:1.949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96534651"
+       d="m 53.524381,57.095825 41.23058,-0.26727 c 10.639459,-0.06897 12.965379,8.831051 12.983419,19.470716 l 0.12426,73.273609 c 0.018,10.63967 -8.306009,19.20344 -18.945689,19.20344 h -28.86936 c -10.63968,0 -19.44666,-8.56377 -19.4647,-19.20344 l -0.12427,-73.273609 c -0.0181,-10.639665 2.42631,-19.134477 13.06576,-19.203446 z"
        id="rect12"
-       width="67.279762"
-       height="111.89117"
-       x="39.290302"
-       y="57.368332"
-       style="stroke-width:1.94908898;fill:#9ee6ce;fill-opacity:1;opacity:0.535;stroke:url(#linearGradient4885);stroke-opacity:0.96534652;stroke-miterlimit:4;stroke-dasharray:none"
-       ry="19.2052"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssss" />
+    <path
+       sodipodi:nodetypes="sssssssss"
+       inkscape:connector-curvature="0"
+       id="path827"
+       d="m 52.615572,57.368332 41.23419,-0.267294 c 10.640388,-0.06898 12.846038,8.831857 12.720298,19.472494 l -0.86592,73.280298 c -0.12573,10.64064 -8.565512,19.2052 -19.205193,19.2052 H 57.629585 c -10.63968,0 -19.330935,-8.56456 -19.2052,-19.2052 l 0.865917,-73.280298 c 0.125735,-10.640637 2.684882,-19.136225 13.32527,-19.2052 z"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient4885);stroke-width:1.94908898;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96534651"
        transform="matrix(1,0,0.01351228,0.9999087,0,0)" />
-    <rect
-       style="opacity:0.53500001;fill:#288166;fill-opacity:1;stroke:#020001;stroke-width:1.621;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95499998"
+    <path
+       style="opacity:1;fill:#3ab3a9;fill-opacity:1;stroke:#020001;stroke-width:1.12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 42.240816,55.16061 h 63.417764 c 1.26925,0 2.29107,1.021816 2.29107,2.291067 v 6.013564 c 0,1.269252 0.18089,3.026059 -1.08836,3.026059 H 41.038103 c -1.269251,0 -1.088354,-1.756807 -1.088354,-3.026059 v -6.013564 c 0,-1.269251 1.021816,-2.291067 2.291067,-2.291067 z"
        id="rect4911"
-       width="59.011906"
-       height="13.902101"
-       x="44.577377"
-       y="43.484798"
-       ry="6.673008"
-       rx="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssss" />
   </g>
 </svg>
