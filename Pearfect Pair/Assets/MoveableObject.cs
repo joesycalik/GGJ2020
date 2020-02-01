@@ -45,5 +45,7 @@ public class MoveableObject : MonoBehaviour
         } else {
             collider = gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
         }
+
+        collider.size = new Vector3(collider.size.x, collider.size.y, 1.0f);
     }
 }
