@@ -4,22 +4,26 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    float speed = 15.0f;
+    [SerializeField]
+    float torque = -1f;
+
+    Rigidbody2D rBody;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    float speed = 15.0f;
+        rBody = GetComponent<Rigidbody2D>();
+    }    
 
     void Update()
     {
-        var xDir = Input.GetAxis("Horizontal");
-        var translation = Input.GetAxis("Horizontal") * speed;
+        float xInput = Input.GetAxis("Horizontal");
+        float movementDir = xInput * speed;
 
-        var rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.AddForce(Vector3.forward * translation);
-        rigidbody.AddTorque(xDir * 1f);
+        rBody.AddForce(Vector3.forward * movementDir);
+        rBody.AddTorque(xInput * torque);
     }
 
 }
