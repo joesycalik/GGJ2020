@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     float speed = 15.0f;
@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
 
         var rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.AddForce(Vector3.forward * translation);
-        rigidbody.AddTorque(xDir * 1f);
+        rigidbody.AddTorque(-xDir * 1f);
     }
 
 }
