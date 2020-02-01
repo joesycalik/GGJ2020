@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
         rBody = GetComponent<Rigidbody2D>();
     }    
 
-    void Update()
+    void FixedUpdate()
     {
         float xInput = Input.GetAxis("Horizontal");
         float movementDir = xInput * speed;
