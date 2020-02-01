@@ -235,7 +235,7 @@ PrefabInstance:
     - target: {fileID: 2696548707845031022, guid: c436efac6d368df448ffe513b0083080,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.67
+      value: -9.410001
       objectReference: {fileID: 0}
     - target: {fileID: 2696548707845031022, guid: c436efac6d368df448ffe513b0083080,
         type: 3}
@@ -565,7 +565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607345086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.281, y: -10.76, z: -7.639355}
+  m_LocalPosition: {x: 2.281, y: -10.19, z: -7.639355}
   m_LocalScale: {x: 0.6483624, y: 0.13, z: 1}
   m_Children: []
   m_Father: {fileID: 607614079}
@@ -805,7 +805,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727605731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.39, y: -10.06, z: -7.639355}
+  m_LocalPosition: {x: -2.39, y: -10.11, z: -7.639355}
   m_LocalScale: {x: 0.60481566, y: 0.13, z: 1}
   m_Children: []
   m_Father: {fileID: 607614079}
@@ -2162,7 +2162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716748424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.148, y: -11.48, z: -7.639355}
+  m_LocalPosition: {x: 7.148, y: -10.22, z: -7.639355}
   m_LocalScale: {x: 0.7136825, y: 0.13, z: 1}
   m_Children: []
   m_Father: {fileID: 607614079}
@@ -2736,12 +2736,12 @@ PrefabInstance:
     - target: {fileID: 2483681586814593494, guid: 00270ed71915d6e4898628075ceafbb2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: -0.68
       objectReference: {fileID: 0}
     - target: {fileID: 2483681586814593494, guid: 00270ed71915d6e4898628075ceafbb2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.47
+      value: -11.62
       objectReference: {fileID: 0}
     - target: {fileID: 2483681586814593494, guid: 00270ed71915d6e4898628075ceafbb2,
         type: 3}
@@ -2854,7 +2854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!223 &2114721694
 Canvas:
   m_ObjectHideFlags: 0
