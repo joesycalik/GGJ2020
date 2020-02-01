@@ -6,8 +6,8 @@ public class MoveableObject : MonoBehaviour
 
     [SerializeField] private float mass = 1.0f;
 
-    private Rigidbody rb;
-    private BoxCollider col;
+    private Rigidbody2D rb;
+    private BoxCollider2D col;
     
     private void Start()
     {
@@ -23,27 +23,23 @@ public class MoveableObject : MonoBehaviour
 
     private void InitializeRigidbody()
     {
-        if (GetComponent<Rigidbody>() != null)
+        if (GetComponent<Rigidbody2D>() != null)
         {
-            rb = GetComponent<Rigidbody>();
+            rb = GetComponent<Rigidbody2D>();
         } else {
-            rb = gameObject.AddComponent(typeof(Rigidbody)) as Rigidbody;
+            rb = gameObject.AddComponent(typeof(Rigidbody2D)) as Rigidbody2D;
         }
-
-        rb.constraints = RigidbodyConstraints.FreezePositionZ
-            | RigidbodyConstraints.FreezeRotationX
-            | RigidbodyConstraints.FreezeRotationY;
 
         rb.mass = mass;
     }
 
     private void InitializeCollider()
     {
-        if (GetComponent<BoxCollider>() != null)
+        if (GetComponent<BoxCollider2D>() != null)
         {
-            col = GetComponent<BoxCollider>();
+            col = GetComponent<BoxCollider2D>();
         } else {
-            col = gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
+            col = gameObject.AddComponent(typeof(BoxCollider2D)) as BoxCollider2D;
         }
 
         col.size = new Vector3(col.size.x, col.size.y, 1.0f);
