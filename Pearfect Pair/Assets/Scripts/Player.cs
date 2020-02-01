@@ -19,6 +19,11 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         float xInput = Input.GetAxis("Horizontal");
         float movementDir = xInput * speed;
 

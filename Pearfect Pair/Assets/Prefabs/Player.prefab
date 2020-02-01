@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  torque: -0.75
+  torque: -2
 --- !u!50 &2483681586814593493
 Rigidbody2D:
   serializedVersion: 4
@@ -110,7 +110,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.2
+  m_Mass: 0.1
   m_LinearDrag: 0
   m_AngularDrag: 8
   m_GravityScale: 1
