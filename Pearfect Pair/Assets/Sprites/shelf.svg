@@ -40,8 +40,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="345.658"
-     inkscape:cy="784.00669"
+     inkscape:cx="335.49482"
+     inkscape:cy="937.81302"
      inkscape:document-units="mm"
      inkscape:current-layer="g5458"
      showgrid="false"
@@ -73,23 +73,22 @@
          id="g5458"
          transform="matrix(0.80404396,0,0.2936895,0.64598034,-12.320121,17.019307)">
         <g
-           id="g1909"
-           transform="matrix(1.109296,0,0.09173698,0.85814455,-8.4471401,14.033497)"
-           inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\shelf.png"
+           id="g826"
            inkscape:export-xdpi="285.84949"
-           inkscape:export-ydpi="285.84949">
+           inkscape:export-ydpi="285.84949"
+           style="stroke:#b6e0e0;stroke-opacity:1;stroke-width:0.58416099;stroke-miterlimit:4;stroke-dasharray:none">
           <rect
-             transform="matrix(1,0,-0.33247891,0.94311069,0,0)"
-             ry="1.4107399"
-             y="50.987476"
-             x="32.674969"
-             height="12.509738"
-             width="172.9558"
+             transform="matrix(1,0,-0.32934784,0.94420866,0,0)"
+             ry="1.209211"
+             y="58.566452"
+             x="32.694073"
+             height="10.72268"
+             width="191.85918"
              id="rect5428"
-             style="opacity:1;fill:#e5fdfb;fill-opacity:1;fill-rule:nonzero;stroke:#adf8f2;stroke-width:0.08958554;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+             style="opacity:1;fill:#e5fdfb;fill-opacity:1;fill-rule:nonzero;stroke:#b6e0e0;stroke-width:0.60117174;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <rect
-             transform="matrix(1,0,-0.18745034,0.77001388,9.3928789,13.173919)"
-             style="opacity:1;fill:#f8fdfb;fill-opacity:1;fill-rule:nonzero;stroke:#687a16;stroke-width:0.06196131;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5448)"
+             transform="matrix(1.0263049,0,-0.02872822,0.34223059,6.1642996,41.763708)"
+             style="opacity:1;fill:#f8fdfb;fill-opacity:1;fill-rule:nonzero;stroke:#b6e0e0;stroke-width:0.98567771;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5448)"
              id="rect5430"
              width="169.636"
              height="6.0586686"
