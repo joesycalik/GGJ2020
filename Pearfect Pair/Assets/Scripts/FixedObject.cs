@@ -1,21 +1,19 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class MoveableObject : MonoBehaviour
+public class FixedObject : MonoBehaviour
 {
-
-    [SerializeField] private float mass = 1.0f;
-
     private Rigidbody2D rb;
     private BoxCollider2D col;
     
-    private void Start()
+    void Start()
     {
         InitializeRigidbody();
         InitializeCollider();
         FixZPosition();
     }
 
+    // Update is called once per frame
     void Update()
     {
         
@@ -30,7 +28,11 @@ public class MoveableObject : MonoBehaviour
             rb = gameObject.AddComponent(typeof(Rigidbody2D)) as Rigidbody2D;
         }
 
-        rb.mass = mass;
+        rb.constraints = RigidbodyConstraints2D.FreezePositionX
+            | RigidbodyConstraints2D.FreezePositionY
+            | RigidbodyConstraints2D.FreezeRotation;
+
+        rb.isKinematic = true;
     }
 
     private void InitializeCollider()
