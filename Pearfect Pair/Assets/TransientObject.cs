@@ -5,40 +5,41 @@ using UnityEngine;
 public class TransientObject : MonoBehaviour
 {
 
-    [SerializeField] private float transitionDelay;
-    private bool isTransient;
+    [SerializeField] private float transitionDelayToTransient = 1.0f;
+    [SerializeField] private float transitionDelayFromTransient = 1.0f;
 
     private SpriteRenderer renderer;
     private BoxCollider2D col;
-
-    private float lastTransitionTime;
     
     void Start()
     {
         col = GetComponent<BoxCollider2D>();
         renderer = GetComponent<SpriteRenderer>();
 
-        isTransient = false;
-        lastTransitionTime = Time.time;
+        StartCoroutine(SwitchTransience(true));
     }
 
-    void Update()
+    private IEnumerator SwitchTransience(bool isTransient)
     {
-        if ((Time.time - lastTransitionTime) >= transitionDelay)
+        if (isTransient)
         {
-            isTransient = !isTransient;
-            lastTransitionTime = Time.time;
-
-            col.enabled = !isTransient;
-
-            Color c = renderer.color;;
-            if (isTransient)
-            {
-                c.a = 0.0f;
-            } else {
-                c.a = 1.0f;
-            }
-            renderer.color = c;
+            yield return new WaitForSeconds(transitionDelayToTransient);
+        } else {
+            yield return new WaitForSeconds(transitionDelayFromTransient);
         }
+
+        col.enabled = !isTransient;
+
+        Color c = renderer.color;
+        if (isTransient)
+        {
+            c.a = 0.0f;
+        } else {
+            c.a = 1.0f;
+        }
+        renderer.color = c;
+
+        StartCoroutine(SwitchTransience(!isTransient));
     }
+
 }

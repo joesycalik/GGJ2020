@@ -569,10 +569,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264d0284f8adb3a4eb7ca5de303d0dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionDelay: 2
-  isTransient: 0
-  enabledColor: {r: 0.14901958, g: 0.8879456, b: 0.9607843, a: 1}
-  disabledColor: {r: 0.9433962, g: 0.29814878, b: 0.34859288, a: 1}
+  transitionDelayToTransient: 3
+  transitionDelayFromTransient: 1
 --- !u!1 &2115392234
 GameObject:
   m_ObjectHideFlags: 0
