@@ -283,6 +283,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 382840912857298805, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382840912857298805, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211803114368306354, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5605757281842931960, guid: 653b87bbac2a17d4a8b1597e997e8b07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -348,8 +363,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5605757283546955906, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234408470314716618, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105214061037676542, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 653b87bbac2a17d4a8b1597e997e8b07, type: 3}
+--- !u!114 &103297415 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5605757281842931961, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+    type: 3}
+  m_PrefabInstance: {fileID: 84946283}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1e83291167948eaa520a7f53a50f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &164874513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,7 +1150,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 240328472}
+      - m_Target: {fileID: 103297415}
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1237,7 +1279,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 240328472}
+      - m_Target: {fileID: 103297415}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:

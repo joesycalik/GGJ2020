@@ -241,8 +241,8 @@ MonoBehaviour:
   health: 0
   maxHealth: 50
   heightDamageThreshold: 2
-  velocityDamageThreshold: 10
-  maxBruiseAlpha: -0.5
+  velocityDamageThreshold: 8
+  maxBruiseAlpha: -1
 --- !u!114 &1812475551
 MonoBehaviour:
   m_ObjectHideFlags: 0
