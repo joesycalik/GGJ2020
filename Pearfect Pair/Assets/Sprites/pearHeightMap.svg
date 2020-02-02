@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5237"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="pearHeightMap.svg">
+  <defs
+     id="defs5231">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5817">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop5813" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop5815" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5817"
+       id="radialGradient5821"
+       cx="110.67196"
+       cy="128.39352"
+       fx="110.67196"
+       fy="128.39352"
+       r="13.615794"
+       gradientTransform="matrix(0.85088064,0.00859307,-0.02692538,2.6661321,19.907539,-212.16448)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="381.89682"
+     inkscape:cy="675.37106"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2844"
+     inkscape:window-height="1955"
+     inkscape:window-x="143"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5234">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:export-ydpi="274.22562"
+       inkscape:export-xdpi="274.22562"
+       inkscape:export-filename="C:\Users\saman\Projects\GGJ2020\Pearfect Pair\Assets\Sprites\repeatPear.png"
+       inkscape:connector-curvature="0"
+       id="path5229"
+       d="m 110.36904,102.90322 c -3.60065,0.009 -7.18835,5.05497 -8.03595,11.15983 -0.1889,1.36059 -0.29842,2.56104 -0.32673,3.62098 -0.0816,0.67669 -0.19841,1.46389 -0.60747,2.31111 -0.17062,0.35337 -0.3646,0.67436 -0.56625,0.9673 -2.601938,2.52249 -4.079388,6.1372 -4.079388,10.13518 0,7.60661 6.095988,13.77299 13.615788,13.77299 7.51981,0 13.6158,-6.16638 13.6158,-13.77299 0,-2.96116 -0.79782,-5.69547 -2.2647,-7.93429 -0.0639,-0.13522 -0.17528,-0.28727 -0.31299,-0.45504 -0.37616,-0.52358 -0.79082,-1.01714 -1.24214,-1.47703 -0.26982,-0.36237 -0.53456,-0.77114 -0.75906,-1.23612 -0.29314,-0.60713 -0.43592,-1.18362 -0.52361,-1.71093 -0.0253,-1.20279 -0.18441,-2.59983 -0.47734,-4.22116 -1.09585,-6.06522 -4.7064,-11.16845 -8.03596,-11.15983 z"
+       style="fill:url(#radialGradient5821);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.05501338" />
+  </g>
+</svg>
