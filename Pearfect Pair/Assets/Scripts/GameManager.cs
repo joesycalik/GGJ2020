@@ -12,11 +12,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int score;
 
-    [SerializeField] private GameObject transitionOverlay;
+    public Animator animator;
 
-    [SerializeField] private float transitionDelay;
-
-    private Color transitionColor;
+    private int sceneIndexToLoad;
 
     private void Awake()
     {
@@ -27,8 +25,6 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
-
-        transitionColor = transitionOverlay.GetComponent<Image>().color;
     }
 
     private void Update()
@@ -44,6 +40,17 @@ public class GameManager : MonoBehaviour
     {
         return score;
     }
+
+    public void PlayGame()
+    {
+        TransitionToScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+	public void QuitGame ()
+	{
+		Debug.Log("Quitting game!");
+		Application.Quit();
+	}
 
     public void TogglePause()
     {
@@ -67,25 +74,38 @@ public class GameManager : MonoBehaviour
         pauseMenuObject.SetActive(false);
     }
 
-    public void LoadLevel(string level)
+    public void LoadLevel(int sceneIndex)
     {
-        TransitionToScene(level);
+        TransitionToScene(sceneIndex);
     }
 
     public void Reload()
     {
-        TransitionToScene(SceneManager.GetActiveScene().name);
+        TransitionToScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMainMenu()
     {
-        TransitionToScene("MainMenu");
+        TransitionToScene(0);
     }
 
-    private void TransitionToScene(string sceneName)
+    private void TransitionToScene(int sceneIndex)
     {
-        SceneManager.LoadScene(sceneName);
+        sceneIndexToLoad = sceneIndex;
+        StartCoroutine(Transition());
+    }
+
+    public IEnumerator Transition()
+    {
+        animator.SetTrigger("FadeOut");
+
+        yield return new WaitForSeconds(1);
+
         PauseOff();
+        SceneManager.LoadScene(sceneIndexToLoad);
+
+        animator.SetTrigger("FadeIn");
+        
     }
 
 }
