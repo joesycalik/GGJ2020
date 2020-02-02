@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class MouthController : MonoBehaviour
 {
-
-    public Animator _mouthAnim;
-    public float _hurtness;
+    [SerializeField] private Animator _mouthAnim;
+    [SerializeField] private float _hurtness;
 
     // Start is called before the first frame update
     void Start()
@@ -19,5 +18,10 @@ public class MouthController : MonoBehaviour
     {
         _hurtness = Mathf.Clamp( _hurtness, 0, .99f);
         _mouthAnim.Play("repetePear_HappytoHurt_Mouth", 0, _hurtness);
+    }
+
+    public void SetHurtness(float hurt)
+    {
+        _hurtness = hurt;
     }
 }

@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &295976516 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2726139201601898356, guid: 00270ed71915d6e4898628075ceafbb2,
+    type: 3}
+  m_PrefabInstance: {fileID: 641657315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &565076279
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,6 +228,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1812475552, guid: 00270ed71915d6e4898628075ceafbb2, type: 3}
+      propertyPath: blinkTimeMin
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812475552, guid: 00270ed71915d6e4898628075ceafbb2, type: 3}
+      propertyPath: blinkTimeMax
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812475552, guid: 00270ed71915d6e4898628075ceafbb2, type: 3}
+      propertyPath: _eyeAnim
+      value: 
+      objectReference: {fileID: 295976516}
     - target: {fileID: 2483681586814593450, guid: 00270ed71915d6e4898628075ceafbb2,
         type: 3}
       propertyPath: m_Name
@@ -512,7 +530,6 @@ MonoBehaviour:
   heightDamageThreshold: 2
   velocityDamageThreshold: 10
   maxBruiseAlpha: -0.5
-  renderer: {fileID: 0}
 --- !u!1 &2066371603
 GameObject:
   m_ObjectHideFlags: 0

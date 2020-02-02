@@ -12,7 +12,7 @@ public class EyeControllerEditor : Editor
         EyeController mEye = (EyeController)target;
 
         if(GUILayout.Button("Blink")){
-            mEye.Blink();
+            mEye.SetBlinkTrigger();
         }
     }
 }
