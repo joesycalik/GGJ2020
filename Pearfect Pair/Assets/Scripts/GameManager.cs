@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -9,6 +12,12 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int score;
 
+    [SerializeField] private GameObject transitionOverlay;
+
+    [SerializeField] private float transitionDelay;
+
+    private Color transitionColor;
+
     private void Awake()
     {
         if (instance == null)
@@ -18,6 +27,8 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
+
+        transitionColor = transitionOverlay.GetComponent<Image>().color;
     }
 
     private void Update()
@@ -38,30 +49,43 @@ public class GameManager : MonoBehaviour
     {
         if (Time.timeScale == 1)
         {
-            Time.timeScale = 0;
-            pauseMenuObject.SetActive(true);
+            PauseOn();
         } else if (Time.timeScale == 0) {
-            Time.timeScale = 1;
-            pauseMenuObject.SetActive(false);
+            PauseOff();
         }
+    }
+
+    public void PauseOn()
+    {
+        Time.timeScale = 0;
+        pauseMenuObject.SetActive(true);
+    }
+
+    public void PauseOff()
+    {
+        Time.timeScale = 1;
+        pauseMenuObject.SetActive(false);
     }
 
     public void LoadLevel(string level)
     {
-        Application.LoadLevel(level);
-        Time.timeScale = 1;
+        TransitionToScene(level);
     }
 
     public void Reload()
     {
-        Application.LoadLevel(Application.loadedLevel);
-        Time.timeScale = 1;
+        TransitionToScene(SceneManager.GetActiveScene().name);
     }
 
     public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
-        Time.timeScale = 1;
+        TransitionToScene("MainMenu");
+    }
+
+    private void TransitionToScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+        PauseOff();
     }
 
 }
