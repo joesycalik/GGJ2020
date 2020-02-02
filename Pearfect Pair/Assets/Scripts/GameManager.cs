@@ -29,10 +29,22 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        //uses the p button to pause and unpause the game
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            GameManager.instance.TogglePause();
+        if (!transitioning){
+            //uses the p button to pause and unpause the game
+            if (Input.GetKeyDown(KeyCode.P) && (SceneManager.GetActiveScene().buildIndex != 0))
+            {
+                TogglePause();
+            }
+
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                TransitionToScene(0);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Reload();
+            }
         }
     }
 
@@ -44,10 +56,11 @@ public class GameManager : MonoBehaviour
     public void PlayGame()
     {
         GameSoundManager.instance.PlayClickAccept();
-        TransitionToScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        TransitionToScene(1);
     }
     
-	public void QuitGame ()
+	public void QuitGame()
 	{
         GameSoundManager.instance.PlayClickAccept();
 		Debug.Log("Quitting game!");
@@ -94,21 +107,24 @@ public class GameManager : MonoBehaviour
 
     private void TransitionToScene(int sceneIndex)
     {
+        PauseOff();
         sceneIndexToLoad = sceneIndex;
         StartCoroutine(Transition());
     }
 
+    bool transitioning; 
+
     public IEnumerator Transition()
     {
+        transitioning = true;
         animator.SetTrigger("FadeOut");
 
         yield return new WaitForSeconds(1);
 
-        PauseOff();
         SceneManager.LoadScene(sceneIndexToLoad);
 
         animator.SetTrigger("FadeIn");
-        
+        transitioning = false;
     }
 
 }
