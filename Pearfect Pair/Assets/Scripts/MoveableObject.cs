@@ -8,6 +8,8 @@ public class MoveableObject : MonoBehaviour
 
     private Rigidbody2D rb;
     private BoxCollider2D col;
+
+    public bool _moveableUponCollision = false;
     
     private void Start()
     {
@@ -29,6 +31,8 @@ public class MoveableObject : MonoBehaviour
         } else {
             rb = gameObject.AddComponent(typeof(Rigidbody2D)) as Rigidbody2D;
         }
+        
+        rb.isKinematic = _moveableUponCollision;
 
         rb.mass = mass;
     }
@@ -48,5 +52,14 @@ public class MoveableObject : MonoBehaviour
     private void FixZPosition()
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, 0.0f);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (_moveableUponCollision && collision.transform.tag=="Player")
+        {
+            rb.simulated = true;
+            rb.isKinematic = false;
+        }
     }
 }
