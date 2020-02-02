@@ -380,6 +380,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 653b87bbac2a17d4a8b1597e997e8b07, type: 3}
+--- !u!114 &103297415 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5605757281842931961, guid: 653b87bbac2a17d4a8b1597e997e8b07,
+    type: 3}
+  m_PrefabInstance: {fileID: 84946283}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1e83291167948eaa520a7f53a50f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &164874513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1150,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 240328472}
+      - m_Target: {fileID: 103297415}
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1267,7 +1279,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 240328472}
+      - m_Target: {fileID: 103297415}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
