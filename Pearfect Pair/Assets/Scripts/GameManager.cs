@@ -97,11 +97,13 @@ public class GameManager : MonoBehaviour
 
     public void Reload()
     {
+        GameSoundManager.instance.PlayClickAccept();
         TransitionToScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMainMenu()
     {
+        GameSoundManager.instance.PlayClickAccept();
         TransitionToScene(0);
     }
 
