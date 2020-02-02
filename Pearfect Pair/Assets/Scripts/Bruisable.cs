@@ -17,7 +17,9 @@ public class Bruisable : MonoBehaviour
 
     [SerializeField] private float maxBruiseAlpha = -0.5f;
 
-    [SerializeField] private Renderer renderer;
+    private Renderer renderer;
+
+    private MouthController mouth;
 
     private Rigidbody2D rb;
 
@@ -25,6 +27,7 @@ public class Bruisable : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         renderer = GetComponent<Renderer>();
+        mouth = GetComponent<MouthController>();
 
         health = maxHealth;
     }
@@ -74,6 +77,8 @@ public class Bruisable : MonoBehaviour
 
         float bruiseAlpha = (maxHealth - health) / maxHealth * maxBruiseAlpha;
         renderer.material.SetFloat("_OverlayAlpha", Mathf.Clamp(bruiseAlpha, maxBruiseAlpha, 0.0f));
+
+        mouth.SetHurtness(Mathf.Clamp(1 - health / maxHealth, 0.0f, 1.0f));
 
         if (health <= 0.0f)
         {
