@@ -15,8 +15,9 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         } else {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
+        DontDestroyOnLoad(this.gameObject);
     }
 
     private void Update()
