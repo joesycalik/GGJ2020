@@ -67,6 +67,11 @@ public class GameManager : MonoBehaviour
 		Application.Quit();
 	}
 
+    public void GoToCredits()
+    {
+        TransitionToScene(9);
+    }
+
     public void TogglePause()
     {
         GameSoundManager.instance.PlayClickAccept();
