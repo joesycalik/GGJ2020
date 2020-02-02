@@ -25,6 +25,7 @@ public class GoNextLevel : MonoBehaviour
         if (other.transform.GetComponent<Player>() != null)
         {
             Debug.Log("Repete found Pete!");
+            GameSoundManager.instance.PlayVictory();
             GameManager.instance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
