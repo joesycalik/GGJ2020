@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    GameObject[] pauseObjects;
     // Use this for initialize
     void Start()
     {
@@ -25,7 +26,7 @@ public class PauseMenu : MonoBehaviour
                 showPaused();
             } else if (Time.timeScale == 0){
                 Debug.Log("high");
-                Time.timescale = 1;
+                Time.timeScale = 1;
                 hidePaused();
             }
         }
@@ -40,7 +41,7 @@ public class PauseMenu : MonoBehaviour
     public void pauseControl(){
         if(Time.timeScale == 1)
         {
-            Time.timeScale == 0;
+            Time.timeScale = 0;
             showPaused();
         } else if (Time.timeScale == 0){
             Time.timeScale = 1;
@@ -64,6 +65,12 @@ public class PauseMenu : MonoBehaviour
 
     //loads inputted level
     public void LoadLevel(string level){
+        Application.LoadLevel(level);
+    }
+
+    //loads the main menu
+    public void LoadLevel(int level)
+    {
         Application.LoadLevel(level);
     }
 }
