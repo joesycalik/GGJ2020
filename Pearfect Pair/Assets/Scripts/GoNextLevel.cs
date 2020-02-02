@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GoNextLevel : MonoBehaviour
@@ -18,16 +16,16 @@ public class GoNextLevel : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            GameManager.instance.Reload();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("trigger entered");
         if (other.transform.GetComponent<Player>() != null)
         {
-            SceneManager.LoadScene(_nextScene);
+            Debug.Log("Repete found Pete!");
+            GameManager.instance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
