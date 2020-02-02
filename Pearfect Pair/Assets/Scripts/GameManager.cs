@@ -43,17 +43,20 @@ public class GameManager : MonoBehaviour
 
     public void PlayGame()
     {
+        GameSoundManager.instance.PlayClickAccept();
         TransitionToScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
 	public void QuitGame ()
 	{
+        GameSoundManager.instance.PlayClickAccept();
 		Debug.Log("Quitting game!");
 		Application.Quit();
 	}
 
     public void TogglePause()
     {
+        GameSoundManager.instance.PlayClickAccept();
         if (Time.timeScale == 1)
         {
             PauseOn();
