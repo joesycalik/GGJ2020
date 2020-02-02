@@ -65,12 +65,12 @@ public class GameSoundManager : MonoBehaviour
 
     public void PlayHuf()
     {
-        Play(huf, 1);
+        Play(huf, 0.7f);
     }
 
     public void PlayOof()
     {
-        Play(oof, 1);
+        Play(oof, 0.7f);
     }
 
     public void PlaySonicSpeed()
@@ -91,7 +91,7 @@ public class GameSoundManager : MonoBehaviour
 
     public void PlayUgh()
     {
-        Play(ugh, 1);
+        Play(ugh, 0.7f);
     }
 
     public void PlayVictory()

@@ -71,6 +71,19 @@ public class Bruisable : MonoBehaviour
         if (damage > 0)
         {
             Debug.Log("Damage: " + damage);
+
+            GameSoundManager.instance.PlaySquishSmall();
+
+            float r = Random.Range(0, 3);
+            if (r > 2)
+            {
+                GameSoundManager.instance.PlayUgh();
+            } else if (r > 1)
+            {
+                GameSoundManager.instance.PlayHuf();
+            } else {
+                GameSoundManager.instance.PlayOof();
+            }
         }
 
         health -= damage;
@@ -83,14 +96,15 @@ public class Bruisable : MonoBehaviour
         if (health <= 0.0f)
         {
             OnDeath();
+        } else {
         }
-
-
     }
 
     private void OnDeath()
     {
         // TODO: Handle death
+        GameSoundManager.instance.PlaySquishBig();
+        GameManager.instance.PauseOn();
     }
 
     private float ComputeFallDamageFromVelocity(float vel)
