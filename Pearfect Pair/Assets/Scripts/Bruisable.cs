@@ -84,6 +84,8 @@ public class Bruisable : MonoBehaviour
         {
             OnDeath();
         }
+
+
     }
 
     private void OnDeath()
