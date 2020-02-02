@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
 public class Player : MonoBehaviour
 {
@@ -14,10 +15,14 @@ public class Player : MonoBehaviour
     bool grounded = true;
     float airTime = 1;
 
+    List<GameObject> collectables;
+
     // Start is called before the first frame update
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        collectables = new List<GameObject>();
+        storedPositions = new List<Vector3>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -36,6 +41,13 @@ public class Player : MonoBehaviour
             rBody.gravityScale = 1;
             airTime = 1;
         }
+
+        if (collision.collider.gameObject.CompareTag("Collectable"))
+        {
+            collision.collider.gameObject.transform.SetParent(transform);
+            collision.collider.gameObject.GetComponent<CircleCollider2D>().enabled = false;
+            collectables.Add(collision.collider.gameObject);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -48,8 +60,35 @@ public class Player : MonoBehaviour
         }
     }
 
+    //List<Vector3> previousPositions = new List<Vector3>();
+    private List<Vector3> storedPositions;
+
     private void Update()
     {
+        //previousPositions.Add(transform.position);
+        for (int i = 0; i < collectables.Count; i++)
+        {
+            collectables[i].transform.position = this.transform.localPosition - new Vector3(i * 5, i * 5, 0);//previousPositions[i];
+        }
+
+        storedPositions.Add(transform.position); //store the position every frame
+
+        for (int i = 0; i < collectables.Count; i++) { 
+            if (storedPositions.Count > 10)
+            {
+                collectables[i].transform.position = storedPositions[i * 10]; //move the player
+                storedPositions.RemoveAt(0); //delete the position that player just move to
+            }
+        }
+
+        //if (previousPositions.Count > 1000)
+        //{
+        //    List<Vector3> listCopy = previousPositions.GetRange(500, 500);
+        //    previousPositions.Clear();
+        //    previousPositions.AddRange(listCopy);
+        //}
+
+
         rBody.gravityScale = Mathf.Lerp(lowGravityValue, 1, airTime);
         airTime += 0.5f * Time.deltaTime;
 
