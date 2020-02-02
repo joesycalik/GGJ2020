@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour {
     }
 
     public void Options() {
-        //GameManager.instance.
+        GameManager.instance.GoToCredits();
     }
 
     public void Quit() {
