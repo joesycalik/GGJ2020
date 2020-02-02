@@ -56,7 +56,7 @@ public class MoveableObject : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (_moveableUponCollision)
+        if (_moveableUponCollision && collision.transform.tag=="Player")
         {
             rb.simulated = true;
             rb.isKinematic = false;
