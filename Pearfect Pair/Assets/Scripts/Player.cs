@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
         
         movementDir = xInput;
 
-        Debug.Log(movementDir);
+        // Debug.Log(movementDir);
 
         rBody.AddForce(Vector2.right * movementDir * speed * (!grounded ? 2 : 1) + (!grounded && airTime > 0.1f && airTime < 0.2f ? Vector2.up * speed : Vector2.zero));
         rBody.AddTorque(xInput * torque);
